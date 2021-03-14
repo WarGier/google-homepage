@@ -4,17 +4,30 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link rel="shortcut icon" href="https://upload.wikimedia.org/wikipedia/commons/2/2d/Google-favicon-2015.png" type="image/x-icon">
-    <link rel="stylesheet" href="css/reset.css">
     <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.15.2/css/all.css" integrity="sha384-vSIIfh2YWi9wW0r9iZe7RJPrKwp6bG+s9QZMoITbCckVJqGCCRhc+ccxNcdpHuYu" crossorigin="anonymous">
+    <link rel="stylesheet" href="css/reset.css">
     <link rel="stylesheet" href="css/style.css">
     <title>Google</title>
 </head>
 <body>
-
+    <header>
+        <div class="flex-container-header">
+            <ul>
+               <li><a href="#">Gmail</a></li> 
+               <li><a href="#">Images</a></li> 
+            </ul>
+            <div class="rounded-hover">
+                <i class="fas fa-th"></i>
+            </div>
+            <div class="rounded-hover profile">
+                <img src="http://images.wikia.com/adventure-time/images/9/92/At_100x100_iconfinn.jpg" alt="Jake">
+            </div>
+        </div>
+    </header>
 
     <main>
         <div class="flex-container-main">
-            <img src="https://assets.stickpng.com/images/580b57fcd9996e24bc43c51f.png" alt="Google">
+            <img src="https://upload.wikimedia.org/wikipedia/commons/thumb/2/2f/Google_2015_logo.svg/368px-Google_2015_logo.svg.png" alt="Google">
             <div class="google-search" tabindex="1">
                 <i class="fas fa-search"></i>
                 <input type="text" id="google-search-bar">
@@ -28,6 +41,29 @@
         </div>
     </main>
 
-    <footer></footer>
+    <footer>
+        <div class="container-footer">
+            <div id="upper-footer">
+                <a href="#">Slovakia</a>
+            </div>
+            <div id="down-footer">
+                <div id="left-side">
+                    <ul>
+                        <li><a href="#">About</a></li>
+                        <li><a href="#">Advertising</a></li>
+                        <li><a href="#">Business</a></li>
+                        <li><a href="#">How Search works</a></li>
+                    </ul>
+                </div>
+                <div id="right-side">
+                    <ul>
+                        <li><a href="#">Privacy</a></li>
+                        <li><a href="#">Terms</a></li>
+                        <li><a href="#">Settings</a></li>
+                    </ul>
+                </div>
+            </div>
+        </div>
+    </footer>
 </body>
 </html>
